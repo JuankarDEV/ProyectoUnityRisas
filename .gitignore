@@ -1,0 +1,14 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Pp]ackages/
+[Ll]ogs/
+[Mm]emoryCaptures/
+obj/
+sysinfo.txt
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
