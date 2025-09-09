@@ -19,8 +19,4 @@ MemoryCaptures/
 *.svd
 
 # Unity Asset Store
-<<<<<<< HEAD
 *.unitypackage
-=======
-*.unitypackage
->>>>>>> master
