@@ -23,5 +23,15 @@ public class Bullet : MonoBehaviour
             // Destruir la bala si choca con el suelo o paredes
             Destroy(gameObject);
         }
+        // Si colisiona con un objeto destruible
+        Brokeable destructible = collision.gameObject.GetComponent<Brokeable>();
+        // Llamar al método TakeDamage del objeto destruible
+        if (destructible != null)
+        {
+            //le pasamos 1 de daño porque esta bala hace 1 de daño
+            destructible.TakeDamage(1);
+        }
     }
+
+
 }
